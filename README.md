@@ -12,3 +12,6 @@ If you want to run or play with the code, you'll need R/R Studio with the follow
 - shiny
 - shinytitle
 - rsconnect
+
+# Note on the CSV
+I used Adobe Acrobat's built-in OCR tool with some (extensive) hand-cleaning to obtain the [.csv](/N1_N5_VoiceName.csv) that the app pulls from. (Note: This was first attempted using the tesseract package in R, but the results were quite poor, even after image processing and rescaling. That's likely because 1) the original PDF is fairly low-quality, 2) tesseract works best with full sentences rather than individual words, and 3) many of the Korg voices are not standard English words.)
