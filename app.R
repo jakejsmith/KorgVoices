@@ -3,6 +3,7 @@ library(shiny)
 library(shinytitle)
 library(rsconnect)
 
+# Read cleaned csv
 korg <- read.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS-wpF1VNO5L_lYSNpcVbXoR2N2pQcIO16ZgJg2R4jhasx_XOHnflRtfLuJp85Ft38oZjqIruSXZ1MQ/pub?output=csv") %>% 
   select(BANK, NUMBER, NAME)
 
